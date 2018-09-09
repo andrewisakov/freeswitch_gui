@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/home/andrew/.local/share/virtualenvs/freeswitch_gui-Hj3J_Xa8/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.pylamaEnabled": true,
+    "python.linting.enabled": true
+}
