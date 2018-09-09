@@ -8,9 +8,13 @@ name = "pypi"
 [packages]
 
 aiohttp-jinja2 = "*"
-aiopg = "*"
 jinja2-time = "*"
 aioredis = "*"
+pyyaml = "*"
+psycopg2-binary = "*"
+aiohttp-session = "*"
+cryptography = "*"
+aiohttp-route = "*"
 
 
 [dev-packages]
@@ -22,3 +26,8 @@ autopep8 = "*"
 [requires]
 
 python_version = "3.6"
+
+
+[packages.aiopg]
+
+extras = [ "sa",]
